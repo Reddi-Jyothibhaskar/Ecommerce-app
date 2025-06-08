@@ -4,6 +4,7 @@ Shopee is a responsive front-end e-commerce web application designed with a vibr
 
 
 🔧Features
+
 Home Page: Responsive hero section with featured products, navigation bar (or hamburger menu for smaller screens), and footer with contact and copyright.
 
 Products Page: Search functionality, category-wise product filtering, and sorting options. Each product is displayed as a card with attributes like image, name, price, quantity, and action buttons (Add to Cart/Wishlist).
