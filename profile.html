@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shoppee | Profile</title>
+  <link rel="stylesheet" href="css/home.css"/>
+  <link rel="stylesheet" href="css/profile.css"/>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">
+      <img src="assets/icons/logo.jpg" alt="Shoppee Logo" />
+      <h1>Shoppee</h1>
+    </div>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="wishlist.html">Wishlist</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="profile.html" class="active">Profile</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Profile Content -->
+  <main class="profile-container">
+    <h2>Your Profile</h2>
+    <form id="profile-form">
+      <label>Name: <input type="text" id="user-name" required /></label>
+      <label>Email: <input type="email" id="user-email" required /></label>
+      <label>Phone: <input type="tel" id="user-phone" required /></label>
+      <label>Address: <textarea id="user-address" required></textarea></label>
+      <button type="submit">Save Profile</button>
+    </form>
+  </main>
+
+  <script src="js/profile.js"></script>
+</body>
+</html>
